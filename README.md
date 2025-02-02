@@ -1,3 +1,3 @@
 # Git Workflow
 
-This is an example repo for the GT OSPO VSIP Spring 2024 Program.
+This is a template repo for the OSPO Training Course that students can fork to start lessons from.
