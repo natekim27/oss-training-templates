@@ -8,3 +8,6 @@ def my_abs(x):
             return x
     except TypeError:
         return math.nan
+
+def my_almost_eq(x, y):
+    return my_abs(x - y) < 1e-16
