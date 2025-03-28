@@ -12,3 +12,6 @@ def my_abs(x):
             x.real ** 2 + x.imag ** 2)
     else:
         return math.nan
+
+def my_almost_eq(x, y):
+    return my_abs(x - y) < 1e-16
